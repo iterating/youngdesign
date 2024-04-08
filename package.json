@@ -1,0 +1,24 @@
+{
+  "name": "youngdesign",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "deploy": "gh-pages -d dist",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1",
+    "gh-pages": "^6.1.1",
+    "nuxt": "^2.17.3",
+    "vue": "^2.7.16",
+    "vue-server-renderer": "^2.7.16",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.0",
+    "postcss": "^8.4.17"
+  }
+}
